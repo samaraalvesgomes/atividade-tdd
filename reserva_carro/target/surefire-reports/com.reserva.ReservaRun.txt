@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.reserva.ReservaRun
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.269 s <<< FAILURE! -- in com.reserva.ReservaRun
+Reservar de motorista.Reserva dentro da área de cobertura -- Time elapsed: 0.110 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Motorista a caminho> but was: <Área fora de cobertura>
+	at com.reserva.ReservaSteps.aReservaRetorna(ReservaSteps.java:30)
+	at ✽.a reserva retorna "Motorista a caminho"(classpath:features/reserva.feature:8)
+
